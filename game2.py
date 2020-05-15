@@ -4,7 +4,7 @@ import random
 import sys
 
 
-if len(sys.argv)< 2:
+if len(sys.argv)< 3:
     print(f"Usage: {sys.argv[0]} change/nochange runcount", file=sys.stderr)
     exit(1)
 
